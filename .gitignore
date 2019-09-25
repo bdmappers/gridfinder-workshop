@@ -1,6 +1,9 @@
 # Custom
-data/
-outputs/
+data/*.tif
+data/*.gpkg
+outputs/*.tif
+outputs/*.gpkg
+outputs/animated/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

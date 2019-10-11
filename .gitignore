@@ -4,6 +4,7 @@ data/*.gpkg
 outputs/*.tif
 outputs/*.gpkg
 outputs/animated/
+gridfinder
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,0 +1,3 @@
+[submodule "gridfinder"]
+	path = gridfinder
+	url = https://github.com/carderne/gridfinder.git

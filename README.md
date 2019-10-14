@@ -10,19 +10,16 @@ Clone/download this repo:
     git clone https://github.com/carderne/gridfinder-workshop.git
     cd gridfinder-workshop
 
-Clone/download the [gridfinder](https://github.com/carderne/gridfinder) repo:
-
-    git clone https://github.com/carderne/gridfinder.git
-
-The directory structure should look as follows:
+The [gridfinder](https://github.com/carderne/gridfinder) repo should come along with it and give you the following directory structure:
 
     gridfinder-workshop/
     |-- data/
     |-- gridfinder/
     |-- outputs/
-    |-- README.md
+    |-- conda_requirements.txt
     |-- gridfinder-workshop.ipynb
-    |-- ...
+    |-- README.md
+    |-- requirements.txt
 
 Install requirements into a Python 3.6+ Conda virtual environment:
 
@@ -42,3 +39,9 @@ Or with pip (only do this if you're *not* using Conda):
 Copy provided input data files into the `data/` directory:
 
     cp /path/to/data/files data/
+
+Run the Jupyter Notebook:
+    
+    jupyter notebook
+
+If all goes well it should open in your browser showing the `gridfinder-workshop` directory contents. If it doesn't, you might need to copy paste the URL (something like `http://localhost:8888/?token=blabla`). Open `gridfinder-workshop.ipynb` and you're ready!

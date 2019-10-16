@@ -7,7 +7,7 @@ Please see full repository here: [gridfinder](https://github.com/carderne/gridfi
 ## Instructions
 Clone/download this repo:
 
-    git clone https://github.com/carderne/gridfinder-workshop.git
+    git clone --recursive https://github.com/carderne/gridfinder-workshop.git
     cd gridfinder-workshop
 
 The [gridfinder](https://github.com/carderne/gridfinder) repo should come along with it and give you the following directory structure:

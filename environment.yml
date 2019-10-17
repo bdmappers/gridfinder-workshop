@@ -1,0 +1,26 @@
+name: gf_env
+channels:
+  - conda-forge
+dependencies:
+  - affine
+  - branca
+  - Click
+  - descartes
+  - Fiona
+  - folium
+  - geopandas
+  - ipython
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - Pillow
+  - pyproj
+  - pytz
+  - rasterio
+  - Rtree
+  - scikit-image
+  - scipy
+  - seaborn
+  - Shapely
+  - rasterstats

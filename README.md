@@ -21,27 +21,20 @@ The [gridfinder](https://github.com/carderne/gridfinder) repo should come along 
     |-- README.md
     |-- requirements.txt
 
-Install requirements into a Python 3.6+ Conda virtual environment:
+If you got a `gf_env.zip` file, then copy it into the `gridfinder-workshop` folder and unzip it. Make sure that the `gf_env/` subfolder has a `python.exe` directly in it!
 
-    conda create --name gf_env
+Then run the following:
+
+    gf_env\Scripts\activate.bat
+    conda-unpack
+
+**Only if you didn't get the zip file** run the following:
+
+    conda env create -f environment.yml
     conda activate gf_env
-    conda config --show channels
-    conda config --append channels conda-forge 
-    conda install --file conda_requirements.txt 
 
-Or with pip (only do this if you're *not* using Conda):
+Copy provided input data files into the `data/` directory and then run the Jupyter Notebook:
 
-    mkdir gf_env
-    python3 -m virtualenv gf_env
-    source gf_env/bin/activate
-    pip install -r requirements.txt
-
-Copy provided input data files into the `data/` directory:
-
-    cp /path/to/data/files data/
-
-Run the Jupyter Notebook:
-    
     jupyter notebook
 
 If all goes well it should open in your browser showing the `gridfinder-workshop` directory contents. If it doesn't, you might need to copy paste the URL (something like `http://localhost:8888/?token=blabla`). Open `gridfinder-workshop.ipynb` and you're ready!

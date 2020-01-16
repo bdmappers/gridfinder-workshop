@@ -1,34 +1,17 @@
 # gridfinder-workshop
+Repository for Facebook/World Bank session at [Data Science Africa Workshop 2019](http://www.datascienceafrica.org/).
 
-Temporary repository for [Data Science Africa Workshop 2019](http://www.datascienceafrica.org/).
+The workshop content is in `gridfinder-workshop.ipynb`.
 
-Please see full repository here: [gridfinder](https://github.com/carderne/gridfinder)
+This workshop is based on [gridfinder](https://github.com/carderne/gridfinder), an algorthim for predicting the location of medium-voltage grid lines, based on work by Facebook Data for Good, the World Bank Group, and others.
 
-## Instructions
+## Installation
 Clone/download this repo:
 
     git clone --recursive https://github.com/carderne/gridfinder-workshop.git
     cd gridfinder-workshop
 
-The [gridfinder](https://github.com/carderne/gridfinder) repo should come along with it and give you the following directory structure:
-
-    gridfinder-workshop/
-    |-- data/
-    |-- gridfinder/
-    |-- outputs/
-    |-- conda_requirements.txt
-    |-- gridfinder-workshop.ipynb
-    |-- README.md
-    |-- requirements.txt
-
-If you got a `gf_env.zip` file, then copy it into the `gridfinder-workshop` folder and unzip it. Make sure that the `gf_env/` subfolder has a `python.exe` directly in it!
-
-Then run the following:
-
-    gf_env\Scripts\activate.bat
-    conda-unpack
-
-**Only if you didn't get the zip file** run the following:
+Then run the following (unless you're on a Linux/macOS machine and prefer to use pip):
 
     conda env create -f environment.yml
     conda activate gf_env
